@@ -17,14 +17,16 @@
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
         <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/masonry.pkgd.min.js"></script>
-        <script>  
+        <script>
           $(function(){
-            
-            $('#things').masonry({
-              itemSelector: '.thing'
+            var $container = $('#things');
+            $container.imagesLoaded(function(){
+              $container.masonry({
+                itemSelector : '.thing'
+              });
             });
-
           });
         </script>
     </head>
