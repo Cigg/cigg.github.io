@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 1.65em;
+  color: #444;
+}
+
+@media(max-width:767px){ body { font-size: 16px; }}
+
+p {
+  margin: 16px 0;
+}
+
+a, a:hover {
+  color: #D26;
+}
+
+h1, h2, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+  margin: 80px 0;
+}
+
+h2 {
+  color: #D26;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 0 0 0.8em 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  display: table;
+}
+
+.section-one {
+  background-color: white;
+  height: 80%;
+}
+
+.section-two {
+  padding: 20px 0;
+  background-color: #222;
+}
+
+.section-three {
+  background-color: #444;
+  color: white;
+  height: 500px;
+}
+
+.parallax {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 80% 10%;
+}
+
+.parallax {
+   background-size: auto 80%;
+}
+
+@media(max-width:1199px){ .parallax { background-image: none;}}
+@media(min-width:1200px){ .parallax { background-image: url("../img/mike2.jpg");}}
+
+.things {
+  /*background-color: white*/
+  width: 100%;
+}
+
+.thing {
+  float: left;
+  background-color: white;
+}
+
+@media(max-width:991px) { .thing { width: 96%; margin: 2%;}}
+@media(min-width:992px) { .thing { width: 48%; margin: 1%;}}
+
+.thing-top {
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+}
+
+.thing-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.thing-text {
+  padding: 28px;
+}
+
+.right {
+  float: right;
+}
+
+.footer {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer a, .footer a:hover {
+  color: white;
+  text-decoration: none;
+}
