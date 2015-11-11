@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: 0 0 0.8em 0;
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 @media(max-width:1199px){ .parallax { background-image: none;}}
-@media(min-width:1200px){ .parallax { background-image: url("../img/mike2.jpg");}}
+@media(min-width:1200px){ .parallax { background-image: url("../img/mike.jpg");}}
 
 .things {
   /*background-color: white*/
