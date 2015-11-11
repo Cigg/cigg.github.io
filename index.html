@@ -53,17 +53,23 @@
         <div class="row">
           <div id="things">
             <div class="thing">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/fcklnezF1vg" frameborder="0" allowfullscreen></iframe>
-              </div>
+              <img src="img/comingsoon.png" class="thing-image">
               <div class="thing-text">
-                <h2>Game on mobile cluster</h2>
-                <strong>App development, Android, Network, Game</strong>
-                <p>As a bachelor project in media technology (TNM094), at Linköping University, some friends and I developed a game that uses the screens of multiple mobile devices as a game board. The game received second prize in LiU Game Awards and the media technology programme's prize for the best technical project as well as the prize for best interaction design at <a href="http://www.cawards.se/">C Awards 2015</a>.</p>
-                <p><a href="https://github.com/Cigg/Game-on-Mobile-Cluster">Project on GitHub</a></p>
+                <h2>Indirect Lighting Using Voxel Cone Tracing</h2>
+                <strong>C++, OpenGL, GLSL</strong>
+                <p>Real time global illumination based on voxel cone tracing. The triangle mesh of the scene is voxelized before
+                 it is sampled to get indirect lighting in the scene.</p>
               </div>
             </div>
-
+            <div class="thing">
+              <img src="img/mcrt.jpg" class="thing-image">
+              <div class="thing-text">
+                <h2>Monte Carlo Ray Tracer</h2>
+                <strong>C++</strong>
+                <p>A global illumination renderer that uses Monte Carlo integration to numerically solve the rendering equation for global illumination. Supports diffuse objects with different BRDFs, specular objects and refractive objects. Project in the course Advanced Global Illumination and Rendering (TNCG15), at Linköping University.</p>
+                <p><a href="https://github.com/Cigg/Monte-Carlo-Ray-Tracing">Project on GitHub</a></p>
+              </div>
+            </div>
             <div class="thing">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EIOdTbQyEsg" frameborder="0" allowfullscreen></iframe>
@@ -81,7 +87,7 @@
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JBik-ZHyy54" frameborder="0" allowfullscreen></iframe>
               </div>
               <div class="thing-text">
-                <h2>Procedural water and terrain</h2>
+                <h2>Procedural Water And Terrain</h2>
                 <strong>WebGL, GLSL</strong>
                 <p>The project I did in the course Procedural Methods for Images (TNM084). It's a
                   WebGL program with emphasis on shader programming. Everything in the program is procedurally
@@ -94,9 +100,33 @@
             <div class="thing">
               <img src="img/cdlod.png" class="thing-image">
               <div class="thing-text">
-                <h2>CDLOD Terrain rendering</h2>
+                <h2>CDLOD Terrain Rendering</h2>
                 <strong>C++, OpenGL</strong>
-                <p>Terrain renderer that I made that implements Continuous Distant-Dependent Level of Detail (CDLOD) based on <a href="http://www.vertexasylum.com/downloads/cdlod/cdlod_latest.pdf">this paper</a>.</p>
+                <p>Terrain renderer I made for the Oculus Rift that implements Continuous Distant-Dependent Level of Detail (CDLOD) based on <a href="http://www.vertexasylum.com/downloads/cdlod/cdlod_latest.pdf">this paper</a>.</p>
+              </div>
+            </div>
+
+            <div class="thing">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/fcklnezF1vg" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="thing-text">
+                <h2>Game On Mobile Cluster</h2>
+                <strong>App development, Android, Network, Game, Award winner</strong>
+                <p>As a bachelor project in media technology (TNM094), at Linköping University, some friends and I developed a game that uses the screens of multiple mobile devices as a game board. The game received second prize in LiU Game Awards and the media technology programme's prize for the best technical project as well as the prize for best interaction design at <a href="http://www.cawards.se/">C Awards 2015</a>.</p>
+                <p><a href="https://github.com/Cigg/Game-on-Mobile-Cluster">Project on GitHub</a></p>
+              </div>
+            </div>
+
+            <div class="thing">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v5QpfqtsAt8" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="thing-text">
+                <h2>Blanda</h2>
+                <strong>Game, Award winner</strong>
+                <p>Blanda is a co-op puzzle game that involves mixing your colored blobs with your friends. It was made in 24 hours and won the Linköping University Game Awards.</p>
+                <p><a href="http://www.liu.se/liu-nytt/arkiv/nyhetsarkiv/1.658394?l=sv">Article (swedish)</a>.</p>
               </div>
             </div>
 
@@ -116,8 +146,7 @@
               <div class="thing-text">
                 <h2>Smoothed Particle Hydrodynamics</h2>
                 <strong>Simulation, C++, OpenGL</strong>
-                <p>Project in the Modeling and Simulation course (TNG022) at Linköping University. Smoothed Particle Hydrodynamics is a fluid simulation technique.
-                  The fluid is made up of a large number of particles. How they behave is described by the Navier-Stokes equations that have  
+                <p>Project in the Modeling and Simulation course (TNG022) at Linköping University. Smoothed Particle Hydrodynamics is a fluid simulation technique. The fluid is made up of a large number of particles. How they behave is described by the Navier-Stokes equations that have  
                   to be solved. Simulated in real-time in an OpenGL implementation.</p>
                 <p><a href="https://github.com/oscarwestberg/Smoothed-Particle-Hydrodynamics-in-Zero-Gravity">Project on GitHub</a></p>
               </div>
@@ -136,9 +165,9 @@
             <div class="thing">
               <img src="img/shadowmaps.jpg" class="thing-image">
               <div class="thing-text">
-                <h2>OpenGL dynamic lighting</h2>
+                <h2>OpenGL Dynamic Lighting</h2>
                 <strong>C++, OpenGL</strong>
-                <p>Project in 3D Computer Graphics (TNM061), at Linköping University. Light sources in the scene casts shadows on objects using a shadow map.</p>
+                <p>Project in 3D Computer Graphics (TNM061), at Linköping University. Light sources in the scene casts shadows on objects using shadow maps.</p>
               </div>
             </div>
 
@@ -158,6 +187,16 @@
                 <strong>Web application, Hackathon winner</strong>
                 <p>The web application Quiz Quest won the hackathon for students Hack Out For Summer. It's a digital quiz that involves walking to places in order to answer questions. The app uses the GPS in your device to tell whether you have arrived at the correct position or not.</p>
                 <p><a href="http://hackoutforsummer.se">hackoutforsummer.se</a></p>
+              </div>
+            </div>
+
+            <div class="thing">
+              <img src="img/qrcode.png" class="thing-image">
+              <div class="thing-text">
+                <h2>QR Code Processing</h2>
+                <strong>Image processing, MATLAB</strong>
+                <p>Project in Advanced Image Processing (TNM034). The task was to find and interpret QR bar codes in images taken in different circumstances.</p>
+                <p><a href="https://github.com/teodorvik/QR-code-processing">Project on GitHub</a></p>
               </div>
             </div>
 
@@ -182,16 +221,6 @@
             </div>
 
             <div class="thing">
-              <img src="img/qrcode.png" class="thing-image">
-              <div class="thing-text">
-                <h2>QR code processing</h2>
-                <strong>Image processing, MATLAB</strong>
-                <p>Project in Advanced Image Processing (TNM034). The task was to find and interpret QR bar codes in images taken in different circumstances.</p>
-                <p><a href="https://github.com/teodorvik/QR-code-processing">Project on GitHub</a></p>
-              </div>
-            </div>
-
-            <div class="thing">
               <img src="img/kvarterskollen.png" class="thing-image">
               <div class="thing-text">
                 <h2>Kvarterskollen</h2>
@@ -211,7 +240,7 @@
         <div class="footer">
             <h3><a href="mailto:micke.zackrisson@gmail.com">micke.zackrisson@gmail.com</a></h3>
             <h3><a href="https://github.com/Cigg">GitHub</a></h3>
-            <h3><a href="https://www.linkedin.com/profile/view?id=289351828">LinkedIn</a></h3>
+            <h3><a href="https://www.linkedin.com/in/mikaelzackrisson">LinkedIn</a></h3>
         </div>
       </section>
 
